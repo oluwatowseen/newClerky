@@ -1,0 +1,649 @@
+body {
+    font-family: Helvetica, Geneva, sans-serif;
+    padding-top: 140px;
+    letter-spacing: 0.02em;
+}
+.navbar-default {
+    background-color: #fff;
+}
+.navbar-brand {
+    width: 120px;
+    padding: 31px 15px;
+}
+.navbar-brand img {
+    width: 100%;
+}
+.navPadding .dropdown:hover .dropdown-menu {
+  display: block !important;
+}
+.navPadding .dropdown-menu:hover{
+  display: block;
+}
+.nav>li {
+    padding: 0px 5px;
+}
+.navPadding li>a {
+    color: #6f7680;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.productnav:hover {
+    color: #008fd5 !important;
+}
+.navDivider {
+    border-left: 1px solid #e9eaeb;
+    height: 27px;
+    margin: 26px 0px;
+}
+.dropSpan {
+    margin-left: 5px;
+}
+.dropdown-large {
+    position: static !important;
+}
+.dropdown-menu-large {
+    width: 100%;
+}
+.dropdown-menu >li>a {
+    padding: 40px 15px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+}
+.dropdown-menu >li>a:hover {
+    background-color: transparent;
+    color: #008fd5;
+    text-decoration: none;
+}
+.tryUs {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.tryUs a {
+    padding: 6.75px 15px !important;
+    font-size: 13px;
+    line-height: 1.8 !important;
+    border-radius: 0;
+    background-color: #008fd5;
+    color: #fff !important;
+}
+.tryUs a:hover {
+    background-color: #006da2 !important;
+    color: #fff;
+}
+.noMargin {
+    margin: 0px;
+}
+@media (min-width: 1200px){
+    .container {
+        width: 1250px;
+    }
+}
+.newDelaware .badge {
+    color: #008fd5;
+    border: 1px solid #008fd5;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 4px 9px;
+    font-weight: 500;
+}
+.newDelaware {
+    font-size: 13px;
+    letter-spacing: 0.08em;
+}
+.newDelaware a {
+    color: #6f7680;
+}
+.newDelaware a:hover {
+    color: #008fd5;
+    text-decoration: none;
+}
+.homeBanner {
+    background-image: url(../images/home-banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 215px;
+    margin-top: 70px;
+    border-bottom: 2px solid #000;
+}
+.imageLink {
+    min-height: 215px;
+}
+.homeHead h1 {
+    font-family: font57892, Georgia, Times, serif;
+    font-size: 65px;
+    letter-spacing: 0;
+}
+.homeHead h4 {
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    color: #4e4d4d;
+    font-size: 19px;
+}
+.tryusButton {
+    padding: 14px 35px;
+    border-radius: 0px;
+    background-color: #008fd5;
+    border: none;
+    letter-spacing: 0.05em;
+    margin: 15px 0;
+}
+.startUp {
+    padding-top: 165px;
+    margin-bottom: 20px;
+}
+.line-hr {
+    border-color: #000;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+@media (min-width: 992px) { 
+    .startUp img {
+        margin-top: -130px;
+    }
+}
+.startUp img {
+    
+    box-shadow: 0 5px 10px #c6c9cc
+}
+.homeH2 {
+    letter-spacing: 0.04em;
+    margin-top: 10px;
+    margin-bottom: 27px;
+    line-height: 1.5;  
+}
+.startupSteps {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.startupSteps h3 {
+    font-size: 25px;
+    margin-top: 27px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.homeParagraph {
+    margin-bottom: 27px;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+    line-height: 1.7;
+}
+.homeParagraph > a {
+    color: inherit;
+    text-decoration: underline;
+}
+.homeParagraph > a:hover {
+    color: #006ea3;
+}
+.learnMore {
+    color: #008fd5;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+}
+.quote {
+    border: 1px solid transparent;
+    box-shadow: -1px 2px 10px #c6c9cc;
+    margin-bottom: 27px;
+    padding: 40px 73px;
+}
+.testimony {
+    margin-bottom: 85px;
+}
+.testimony h1 {
+    font-size: 30px;
+    font-family: font57892, Georgia, Times, serif;
+    letter-spacing: 0;
+    line-height: 1.3;
+    margin-bottom: 27px;
+    color: #22262e;
+}
+.quote img {
+    height: 54px;
+    margin-right: 15px;
+}
+.quote p {
+    color: #6f7680;
+    margin-bottom: 20px;
+    letter-spacing: 0.04em;
+    font-size: 15px;
+}
+.due_dilligenceMargin {
+    margin-left: 15px;
+}
+.notopMargin {
+    margin-top: 0px !important;
+}
+.notopPadding {
+    padding-top: 0px !important;
+}
+.morebuttMargin {
+    margin-bottom: 35px;
+}
+.homeEfficiency {
+    margin-bottom: 85px;
+    margin-top: 120px;
+}
+.efficiency img {
+    height: 54px;
+}
+.line {
+    border-color: #000;
+}
+.gift {
+    border: 1px solid #000;
+    padding: 54px 60px;
+    margin-top: 160px;
+    margin-bottom: 180px;
+}
+.gift ul {
+    list-style: none;
+    padding-left: 1px;
+    margin-top: -27px;
+    font-size: 12px;
+    color: #6f7680;
+    letter-spacing: 0.04em;
+}
+.customer img {
+    height: 40.5px;
+}
+.customer {
+    margin-top: 70px
+}
+.showLarge {
+    margin-bottom: 180px;
+}
+.showSmall {
+    margin-bottom: 180px;
+}
+.contactForm {
+    margin: 15px 0;
+    height: 50px;
+    border-radius: 0;
+}
+.contactUs .checkbox {
+    letter-spacing: 0.06em;
+    font-size: 15px;
+}
+.homeApps {
+    margin-top: 150px;
+}
+.homeApps ul {
+    list-style: none;
+    line-height: 1.8;
+    letter-spacing: 0.04em;
+    font-size: 15px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.homeApps ul>li>a {
+    color: #22262e;
+    text-decoration: none;
+}
+.homeApps ul>li>a:hover {
+    color: #008fd5;
+    text-decoration: none;
+}
+.footer {
+    font-size: 12px;
+    color: #6f7680;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.footer ul {
+    padding: 0px;
+}
+.footer ul>li {
+    display: inline-block;
+    padding-right: 15px;
+}
+.footer ul>li>a {
+    color: #6f7680;
+    text-decoration: none;
+}
+.footer ul>li>a:hover {
+    color: #008fd5;
+    text-decoration: none;
+}
+/*due diligence*/
+.centerimagePadding {
+    padding-left: 80px;
+}
+.attorneytopPadding {
+    padding-top: 60px;
+}
+.blablogo {
+    height: 54px;
+    margin-right: 15px;
+}
+.pbcHeader {
+    border-top: 2px solid #000;
+    padding-top: 10px;
+    padding-bottom: 90px;
+}
+.pbcSlide img {
+    width: 100%;
+    margin-top: 25px;
+}
+.quotefont {
+    font-size: 30px !important;
+}
+.public_benefit .carousel-control.left {
+    background-image: none;
+}
+.public_benefit .carousel-control.right {
+    background-image: none;
+}
+.leftControl {
+    font-size: 40px;
+    color: #000;
+    position: absolute;
+    right: 200px;
+    top: 365px;
+}
+.rightControl {
+    font-size: 40px;
+    color: #000;
+    position: absolute;
+    left: 200px;
+    top: 365px;
+}
+/*features*/
+.featureSection img {
+    outline: #e9eaeb solid 1px;
+    width: 100%;
+}
+.featureSection {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.lessbuttMargin {
+    margin-bottom: 27px;
+}
+/*pricing*/
+.intune {
+    color: #008fd5 !important;
+}
+.price {
+    border-top: 2px solid #000;
+    margin-top: 90px;
+    padding-top: 10px;
+    padding-bottom: 90px;
+}
+.priceDiv .headerH2 {
+    letter-spacing: 0.04em;
+    margin-top: 10px;
+    margin-bottom: 27px;
+    line-height: 1.5;
+    font-size: 30px;
+}
+.pricedivMargin {
+    margin-bottom: 20px;
+}
+.moretopMargin {
+    margin-top: 20px;
+}
+.unstyledList li {
+    margin-bottom: 13px;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    line-height: 1.7;
+}
+.unstyledList li> a {
+    color: #6f7680;
+    text-decoration: none;
+}
+.unstyledList li> a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.affix-top {
+  position: relative;
+}
+
+.affix {
+  top: 81px;
+}
+
+.affix, 
+.affix-bottom {
+    width: 213px;
+}
+
+.affix-bottom {
+  position: absolute;
+}
+/*about*/
+.about {
+    border-top: 2px solid #000;
+    padding-top: 10px;
+    padding-bottom: 90px;
+    margin-top: 25px;
+}
+.aboutus h3 {
+    font-size: 25px;
+}
+.obsession {
+padding-bottom: 120px;
+}
+.shelf {
+    padding-top: 60px;
+    text-align: center;
+}
+.mutedText {
+    color: #6f7680 !important;
+    letter-spacing: 0.06em !important;
+}
+.leadership h4 {
+    line-height: 1.6;
+}
+.leadership {
+    margin-bottom: 145px;
+}
+/*tryusout*/
+.tryusout {
+
+}
+.tryusout h3 {
+    font-size: 25px;
+}
+.signup-logo {
+    width: 115px;
+    margin-bottom: 50px;
+}
+.signup {
+    padding-bottom: 150px;
+    border-bottom: 1px solid #ccc;
+}
+.tryusout .checkbox {
+    letter-spacing: 0.06em;
+    font-size: 13px;
+}
+.signupButton {
+    padding: 16px 35px;
+    border-radius: 0px;
+    background-color: #008fd5;
+    border: none;
+    letter-spacing: 0.05em;
+    margin: 15px 0;
+    width: 100%;
+}
+.signupFooter {
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    line-height: 1.6;
+}
+.signinText a {
+    color: #6f7680;
+    letter-spacing: 0.06em;
+    font-size: 13px;
+    text-decoration: underline;
+    text-decoration-color: rgba(111, 118, 128, 0.29);
+}
+.signinText a:hover {
+    text-decoration: underline;
+    text-decoration-color: #000;
+}
+/*attorney*/
+.forAttorney {
+    border-top: 2px solid #000;
+}
+.attorney {
+    padding-bottom: 150px;
+}
+.homeH3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+/*formation*/
+.formation {
+    margin-top: 50px;
+}
+.formationHome {
+    border-top: 2px solid #000;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 90px;
+}
+.complete {
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.completeContainer {
+    border: 1px solid #e9eaeb;
+    padding: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.completeContainer h4 {
+    font-size: 19px;
+    line-height: 1.7;
+}
+.costPrice {
+    color: #008fd5;
+}
+.costPriceText {
+    font-size: 11px;
+    color: #6f7680;
+    letter-spacing: 0.04em;
+}
+.dottedUnder {
+    border-bottom: 1px dotted #6f7680;
+}
+.unstyledList {
+    padding-left: 0px;
+    list-style: none;
+}
+ul.listed li {
+    margin-left: 25px;
+    margin-bottom: 13px;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    line-height: 1.7;
+}
+ul.listed li:before {
+    content: url(../images/page-formation.svg);
+    display: inline-block;
+    height: 19px;
+    margin-left: -27px;
+    margin-right: 16px;
+    position: relative;
+    top: 3px;
+}
+.quoteFormation {
+    padding-bottom: 100px;
+}
+.quoteFormation h1 {
+    font-size: 36px;
+    font-family: font57892, Georgia, Times, serif;
+    letter-spacing: 0;
+    line-height: 1.3;
+    margin-bottom: 27px;
+    color: #22262e;
+}
+.quoteFormation img {
+    height: 54px;
+    margin-right: 15px;
+}
+.quoteFormation p {
+    color: #6f7680;
+    margin-bottom: 20px;
+    letter-spacing: 0.04em;
+    font-size: 15px;
+}
+.safe {
+    padding-bottom: 160px;
+}
+.safe h4 {
+    font-size: 19px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.largeTopMargin {
+    margin-top: 80px;
+}
+.largebuttMargin {
+    margin-bottom: 100px;
+}
+.formationCustomer {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.imageSize img {
+    height: 54px;
+}
+/*commercial*/
+.commercial {
+    margin-top: 50px;
+}
+.nobuttPadding {
+    padding-bottom: 0px !important;
+}
+.center {
+    text-align: center !important;
+}
+.nobuttMargin {
+    margin-bottom: 0px !important;
+}
+/*funndraising*/
+.subscriptionContainer {
+    border-right: 1px solid #e9eaeb;
+    border-left: 1px solid #e9eaeb;
+    border-bottom: 1px solid #e9eaeb;
+    padding: 50px;
+    margin-bottom: 30px; 
+}
+.subscriptionPadding {
+    padding: 27px !important;
+}
+.lessSubscriptionPadding {
+    padding: 13px 27px !important;
+}
+.fundraising .subscriptionContainer h4:before {
+    content: url(../images/page-formation.svg);
+    display: inline-block;
+    height: 19px;
+    margin-right: 16px;
+    position: relative;
+    top: 3px;
+}
+/*hiring*/
+.subscriptionHeader {
+    border: 1px solid #e9eaeb;
+    padding: 13px 60px;
+}
+.subscriptionPricing {
+    border-right: 1px solid #e9eaeb;
+    padding-bottom: 27px;
+    padding-top: 27px;
+}
+.noBorder {
+    border: 0 !important;
+}
+.nobuttBorder {
+    border-bottom: 0 !important;
+}
